@@ -1,0 +1,42 @@
+{
+  "uuid": "fb7105e76eb7280d62ebe26447509b18",
+  "path": "Offline/PicoPicoDebugger",
+  "name": "PicoPicoDebugger",
+  "content": "Debug a Rpi Pico with another Rpi Pico",
+  "created_at": "2022-06-12 04:43:46",
+  "updated_at": "2022-06-12 04:43:46",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0831de8c9f523dbd9627eb6ef78413b2",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1654973026,
+      "createTime": 1654973026,
+      "histories": [],
+      "created_at": "2022-06-12 04:43:46",
+      "updated_at": "2022-06-12 04:43:46"
+    }
+  ],
+  "sort": [
+    "0cfce24dc9eae36d74b3996cef56b28a",
+    "d2cf1ce71926fb9e2dfc420dba67960f"
+  ],
+  "title": "PicoPicoDebugger",
+  "foldername": "PicoPicoDebugger",
+  "schfilename": "PicoPicoDebugger.json",
+  "schfilemtime": 1654973026974
+}
