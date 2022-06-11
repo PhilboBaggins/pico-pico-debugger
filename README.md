@@ -14,7 +14,10 @@ TODO
 
 * Add silkscreen lines linking the breadboard style pads that are linked by traces
 * Better footprint for SMT Pico board (needs keepouts for pads on bottom of Pico)
+* 3D models for Pico boards
 * More room for serial number and build date?
+* Documentation
+* Software examples
 
 Licence
 -------
