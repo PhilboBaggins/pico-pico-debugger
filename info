@@ -2,9 +2,9 @@
   "uuid": "fb7105e76eb7280d62ebe26447509b18",
   "path": "Offline/PicoPicoDebugger",
   "name": "PicoPicoDebugger",
-  "content": "Debug a Rpi Pico with another Rpi Pico",
+  "content": "Debug a RPi Pico with another RPi Pico",
   "created_at": "2022-06-12 04:43:46",
-  "updated_at": "2022-06-12 04:43:46",
+  "updated_at": "2022-06-12 07:04:01",
   "stick": "",
   "documents": [
     {
@@ -12,9 +12,14 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "70769b3811593c782c51d06a5b2c261f",
       "thumb": "/images/thumb-default.png",
-      "components": {},
+      "components": {
+        "6e3561ce9c3f4a05b7fe19937921701d": 1,
+        "5f9451a0a0ba472ebbafe110fd9b3732": 1,
+        "17d989225e7d42839ef422d52be2b802": 8,
+        "d851786b5c664ff789b13c0741460439": 12
+      },
       "BOM": [
         [
           "Value",
@@ -22,13 +27,85 @@
           "Package",
           "Components",
           "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x20",
+          8,
+          "HDR-F-2.54_1X20",
+          "A1,A2,A9,A10,B1,B2,B9,B10",
+          {
+            "BOM_Supplier Part": "C50984",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d2341d8234464924809729b13422be4a",
+            "uuid": "17d989225e7d42839ef422d52be2b802"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x20",
+          12,
+          "HDR-M-2.54_1X20",
+          "A3,A4,A5,A6,A7,A8,B3,B4,B5,B6,B7,B8",
+          {
+            "BOM_Supplier Part": "C50981",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fa8b3531a8854d41bcf2c462cb2bfc07",
+            "uuid": "d851786b5c664ff789b13c0741460439"
+          }
+        ],
+        [
+          "RPI PICO DEV BOARD",
+          1,
+          "RPI_PICO_SMD_TH",
+          "DEBUGGEE",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "41ff9244bce146a6a6dcd79c79d59a1f",
+            "uuid": "5f9451a0a0ba472ebbafe110fd9b3732"
+          }
+        ],
+        [
+          "RPI_PICO_IG-SMD",
+          1,
+          "RPI_PICO",
+          "DEBUGGER",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "825f33db2c71405aa7446df854a197c3",
+            "uuid": "6e3561ce9c3f4a05b7fe19937921701d"
+          }
         ]
       ],
-      "updateTime": 1654973026,
+      "updateTime": 1654981441,
       "createTime": 1654973026,
       "histories": [],
       "created_at": "2022-06-12 04:43:46",
-      "updated_at": "2022-06-12 04:43:46"
+      "updated_at": "2022-06-12 07:04:01"
+    },
+    {
+      "uuid": "6dad16faa1a1314c41adee07ffa91ac6",
+      "puuid": "fb7105e76eb7280d62ebe26447509b18",
+      "title": "PCB_PicoPicoDebugger",
+      "filename": "PCB_PicoPicoDebugger.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d2341d8234464924809729b13422be4a": 8,
+        "fa8b3531a8854d41bcf2c462cb2bfc07": 12,
+        "41ff9244bce146a6a6dcd79c79d59a1f": 1,
+        "825f33db2c71405aa7446df854a197c3": 1
+      },
+      "BOM": [],
+      "updateTime": 1654981133,
+      "createTime": 1654973322,
+      "histories": [],
+      "created_at": "2022-06-12 04:48:42",
+      "updated_at": "2022-06-12 06:58:53"
     }
   ],
   "sort": [
@@ -38,5 +115,5 @@
   "title": "PicoPicoDebugger",
   "foldername": "PicoPicoDebugger",
   "schfilename": "PicoPicoDebugger.json",
-  "schfilemtime": 1654973026974
+  "schfilemtime": 1654981441143
 }
